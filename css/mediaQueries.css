@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .container-menu {
+    gap: 2rem;
+  }
+  .menu a {
+    font-size: 1.5rem;
+  }
+  .header-bottom {
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero-descripcion {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .menu a {
+    font-size: 1.25rem;
+  }
+  .container-menu {
+    line-height: 3;
+  }
+  .header-bottom > * {
+    flex-basis: 50%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-cta h3 {
+    font-size: 3rem;
+  }
+  .hero-cta h2 {
+    font-size: 6rem;
+  }
+}

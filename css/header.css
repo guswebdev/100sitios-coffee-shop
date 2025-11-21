@@ -1,0 +1,115 @@
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../assets/img/showcase.jpg);
+  background-position: center;
+  padding: 1rem 0;
+}
+
+.header .container {
+  min-height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-bottom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.container-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  color: white;
+  transition: transform 750ms;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo span {
+  font-size: 2.5rem;
+  color: #ffc038;
+}
+
+.menu a {
+  color: white;
+  transition: transform 500ms;
+}
+.menu a:hover {
+  transform: scale(1.1);
+  color: #ffc038;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.hero-cta h3 {
+  color: #ffc038;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.hero-cta h2 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.hero-cta button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  background-color: #ffc038;
+}
+
+.hero-cta button:hover {
+    background-color: white;
+    color:#ffc038
+}
+
+.hero-descripcion {
+  color: white;
+  line-height: 1.75;
+}
+
+.header-redes {
+  align-self: center;
+  color: white;
+}
+
+.hero-redes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-redes i {
+  font-size: 1.5rem;
+  color: #ffc038;
+  transition: transform 500ms;
+}
+
+.hero-redes i:hover {
+    color: white;
+    transform: translateY(-1rem);
+}
